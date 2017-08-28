@@ -1,0 +1,25 @@
+{
+  "name": "boolean-jsts",
+  "version": "0.0.1",
+  "description": "Boolean JSTS - Used for TurfJS boolean testing",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "contributors": [
+    "Denis Carriere <@DenisCarriere>",
+    "Rowan Winsemius <@rowanwins>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@turf/helpers": "^4.4.0",
+    "@types/geojson": "^1.0.2",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "jsts": "^1.4.0"
+  }
+}
