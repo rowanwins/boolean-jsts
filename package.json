@@ -6,6 +6,10 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rowanwins/boolean-jsts.git"
+  },
   "scripts": {
     "test": "node test.js"
   },
